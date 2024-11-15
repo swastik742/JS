@@ -48,12 +48,12 @@ for (const key in programming) {
 }
 
 //five.js
-const coding = ["js", "ruby", "java", "python", "cpp"]
+//const coding = ["js", "ruby", "java", "python", "cpp"]
 
-coding.forEach(function(val){
+//coding.forEach(function(val){
    // console.log(val);
 })
-coding.forEach( (items)=>{
+//coding.forEach( (items)=>{
    // console.log(items)
 })
 
@@ -62,7 +62,7 @@ function printme(item) {
 }
 
 //coding.forEach(printme)
-coding.forEach( (items,index,arr)=>{
+//coding.forEach( (items,index,arr)=>{
     //console.log(items,index,arr);
     
 })
@@ -84,3 +84,12 @@ const myCoding = [
 
 myCoding.forEach( (items)=>console.log(items.languageName)
 )
+
+//six.js
+const coding = ["js", "ruby", "java", "python", "cpp"]
+
+const values = coding.forEach( (items)=>{
+  //  console.log(items);
+    return items
+    
+})
